@@ -1,0 +1,209 @@
+body {
+  background-color: maroon;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar {
+  background-color: yellow;
+  border-radius: 0;
+  border: 0;
+  position: relative;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: green;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+.navbar-nav {
+  margin: auto;
+  margin-right: 0;
+}
+.jumbotron img{
+  width: -webkit-fill-available;
+  padding: auto;
+}
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.container {
+  margin-top: 63.2px;
+  margin-bottom: 63.2px
+}
+.navbar-nav .nav-item {
+  margin: 40px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  background-color: red;
+  font-size: 1.2em;
+  border: ridge;
+  text-align: center;
+}
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15px;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('https://www.wellplated.com/wp-content/uploads/2020/06/Best-Grilled-Chicken-Tenders.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#specials-tile {
+  background: url('https://www.simplyrecipes.com/thmb/TwFcaHtHLSdCtK1ObveCkwpxxsc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__09__Classic-Baked-Chicken-LEAD-1-47dc5e85c6e24eb4b54cabb4023a7698.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.panel-footer {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+}
+section {
+  color: #fff;
+}
+.note {
+  color: greenyellow;
+}
+.copyright {
+  color: red;
+}
+.title {
+  color: bisque;
+  margin: 15px auto 80px;
+}
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* SINGLE CATEGORY PAGE */
+#menu-categories-title{
+  color: bisque;
+  margin: 15px auto 80px;
+}
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+@media (min-width: 1200px) {
+  .navbar-brand h1 {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand h1{
+    font-size: 3vw;
+  }
+
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand h1 {
+      font-size: 4vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand h1 { 
+    font-size: 5vw; 
+  }
+}
+@media (max-width: 479px) {
+  .navbar-brand h1 { 
+    font-size: 6vw;
+  }
+
+}
+
+
